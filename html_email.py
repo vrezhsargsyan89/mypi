@@ -3,8 +3,8 @@ SENDMAIL = '/usr/sbin/sendmail'
 
 def send_mail ():
 	""" This function sends email with HTML table"""
-	TO =  ["vsargsya@qti.qualcomm.com"]
-	SUBJECT = 'FME(D)A Test'
+	TO =  ["s.vrezh@gmail.com"]
+	SUBJECT = 'Test'
 	#COLOR = 'palegreen'
 	COLOR = '#F7CFCF '
 	html_file = open('html.txt','r')
