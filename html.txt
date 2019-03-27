@@ -1,0 +1,29 @@
+To: %s 
+Subject: %s
+Content-Type: text/html
+<html>
+<body>
+<div >
+  <table style='background-color: %s;'>
+	<tr><td><p><b> Run status </b></p></td></tr>
+		<tr><td><table  border="1" bordercolor="black" style='background-color: %s; border-collapse:collapse'>
+			<tr><b><td> &nbsp;RUN1e&nbsp;</td> <td> &nbsp;RUN2&nbsp;</td> <td> &nbsp;RUN3&nbsp; </td> </b></tr>
+			<tr> <td><b>&nbsp;<font color=green>P</font></td> <td><b>&nbsp;<font color=green>P</b></td> <td><b>&nbsp;<font color=red>F</font><b></td> </tr>	
+		</table> </td></tr>
+	<tr><td><p>P=Pass, F=Fail</p></td></tr>	
+	</table>
+	<pre>  </pre>
+	<table>
+	<tr><td><b><p><span style='font-size:18'>***My run details***</span></p></b></td></tr>
+		<tr><td><table  border="1" bordercolor="black"  style='border-collapse:collapse'>
+			<tr bgcolor="e7dfdf"> <td>&nbsp;<b>Parameter</b>&nbsp;</td> <td>&nbsp;<b>Value</b>&nbsp;</td> </tr>
+			<tr><td> &nbsp;DC&nbsp; </td> <td> &nbsp;50%s&nbsp;</td> </tr>
+		</table> </td></tr>
+	</table>	
+	<pre>  </pre>
+	<table>
+		<tr><td>Thanks</td></tr>
+	</table>
+</div>
+</body>
+</html>
