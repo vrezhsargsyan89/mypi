@@ -1,3 +1,3 @@
-This a python function to send an email with HTML table containing any needed data. 
+This is a python function to send an email with HTML table containing any needed data. 
 In this case, it sends the results of particular jobs in different colors based on the status of the runs. 
 Works in Linux environment 
